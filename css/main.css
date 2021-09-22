@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.menu{
+    /* position: relative; */
+    /* position: fixed; */
+    border-radius:0px 0px 20px 0px;
+}
+
+/* estilo a ul */
+.menu ul{
+    list-style: none; 
+    padding: 0%;
+    background: #190150;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+/* .menu li li{
+    text-decoration: none;
+    color: white;
+} */
+
+.menu li{
+    border-radius: 0px 0px 20px 0px;
+    display: inline-block;
+    padding: 0%;
+    width: 19.73%;
+    left: 0;
+    font-size: 20px;
+    
+    /* float: left; */
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+    color: greenyellow;
+    
+}
+
+
+#dos{
+    width: 50%;
+    background-color: rgb(189, 107, 107);
+       
+}
+#uno{
+    width: 20%;
+}
+
+/* menu redes sociales */
+#social{
+    position: fixed;
+    background-color: rgb(3, 3, 46);
+    width: 150px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 20px 0px;
+}
+
+/* menu 2 */
+.menu2{
+    position: relative;
+    /* right: 0; */
+    left: 60%;
+    
+}
+.menu2 ul{
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.menu2 #item{
+    float: left;
+    position: relative; 
+}
+
+.menu2 #item a{
+    
+    text-decoration: none;
+    background: #190150;
+    color: white;
+    padding: 12px 22px;
+    display: block;
+}
+/* los div  */
+#h1{
+    background-color: violet;
+}
+#h2{
+    background-color: yellow;
+    /* display: none; */
+    visibility: hidden;
+}
+#h3{
+    background-color: teal;
+}
+
+/* inicio menu desplegable */
+#submenu{
+    display: none;
+    position: absolute;
+    min-width: 156px;
+}
+
+#item a:hover{
+    background: aqua;
+    color: black;
+}
+
+#item:hover #submenu{
+    display: block;
+}
+
+/* estilo submenu_2 */
+#submenu_2{
+    display: none;
+    top: 80px;
+    right: -90px;
+}
+
+#li_2:hover #submenu_2{
+    display: block;
+    position: absolute;
+}
+/* fin submenu_2 */
+/* fin menu desplegable */
+
+
